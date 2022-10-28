@@ -68,10 +68,10 @@ function idoso(imc_resultado) {
         img = "img/acimadopeso.png"
     }
     else if (imc_resultado >= 28 && imc_resultado < 30) {//ACIMA DO PESO
-        img = "img/acimadopeso.png"
+        img = "img/obs1.png"
     }
     else if (imc_resultado >= 30) {//OBESIDADE
-        img = "img/acimadopeso.png"
+        img = "img/obs2.png"
     }
     console.log(img)
     document.getElementById("imc_img").src = img
